@@ -3,15 +3,15 @@ Famous Algorithms written in Go
 
 ---
 
-01. sort 1
-02. sort 2
-03. sort 3
-04. sort 4
-05. sort 5
-06. prime
-07. fibonacci
-08. Pentabonacci
-09. listprimebefore
+1. sort 1
+2. sort 2
+3. sort 3
+4. sort 4
+5. sort 5
+6. prime
+7. fibonacci
+8. Pentabonacci
+9. listprimebefore
 10. delta
 11. trinome second degree
 12. base 2
