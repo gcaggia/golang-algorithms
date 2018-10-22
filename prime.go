@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"strconv"
+	utils "../golang-algorithms/utils"
 )
 
 func isPrime(number int) bool {
@@ -12,10 +13,7 @@ func isPrime(number int) bool {
 }
 
 func main() {
-	var number int
-	fmt.Print("Enter a number: ")
-	fmt.Scan(&number)
-
+	number := utils.NumberInput("")
 	if isPrime(number) {
 		fmt.Println(strconv.Itoa(number) + " is prime")
 	} else {

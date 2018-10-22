@@ -14,6 +14,5 @@ func DivisorsList(n int) (divList[] int) {
 func main() {
 	n:= utils.NumberInput("")
 	list := DivisorsList(n)
-	fmt.Print("List of divisors of " + strconv.Itoa(n) + ": ")
-	fmt.Println(list)
+	fmt.Print("List of divisors of " + strconv.Itoa(n) + ": ", list)
 }

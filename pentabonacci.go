@@ -6,7 +6,6 @@ import (
 )
 
 func pentafibonnaciSequence(maxIndex int) (seq[][] int) {
-	if maxIndex <= 4 { return [][]int{ {0, 0}         } }
 	seq = append(seq, [][]int{{0, 0}, {1, 1}, {2, 1}, {3, 2}, {4, 4}}...)
 	for i := 5 ; i <= maxIndex ; i++ {
 		seq = append(seq, [][]int{

@@ -8,9 +8,9 @@ import (
 
 // https://en.wikipedia.org/wiki/E_(mathematical_constant)
 func EulerBernoulli(epsilon float64) (int, string) {
-	var e_calc, i float64 = 0, 1
-	for ;  math.Abs(e_calc - math.E) > epsilon ; i++ {
-		e_calc = math.Pow(1 + 1/i, i)
+	var e_calc, n float64 = 0, 1
+	for ;  math.Abs(e_calc - math.E) > epsilon ; n++ {
+		e_calc = math.Pow(1 + 1/n, n)
 	}
 	return int(i), strconv.FormatFloat(e_calc, 'f', 10, 64)
 }

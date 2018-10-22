@@ -10,7 +10,7 @@ import (
 func EulerInfiniteSeries(epsilon float64) (int, string) {
 	var e_calc, i float64 = 0, 1
 	for fact := 1;  math.Abs(e_calc - math.E) > epsilon ; i, fact = i + 1, fact * int(i)  {
-		e_calc += (1/float64(fact))
+		e_calc += 1/float64(fact)
 	}
 	return int(i), strconv.FormatFloat(e_calc, 'f', 10, 64)
 }
