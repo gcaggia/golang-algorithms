@@ -8,3 +8,10 @@ func NumberInput(txt string) int {
 	fmt.Scan(&number)
 	return number
 }
+
+func StringInput(txt string) string {
+	var input string
+	fmt.Print(func() string { if txt == "" { return "Enter a word: " } else {return txt} }())
+	fmt.Scanln(&input)
+	return input
+}
