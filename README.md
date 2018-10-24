@@ -14,7 +14,7 @@
 
 | Algorithm                                    | File                                      |
 | -------------------------------------------- | ----------------------------------------- |
-| 01/ Base decimal to base 2                   | base_2.go                                 |
+| 01/ Base decimal to base 2                   | [base_2.go](base_2.go)                    |
 | 02/ Base decimal to base 3                   | base_3.go                                 |
 | 03/ Base decimal to base hexadecimal         | base_hexa.go                              |
 | 04/ Base decimal to base n                   | base_n.go                                 |
