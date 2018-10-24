@@ -15,10 +15,10 @@ func quadraticEquation(a, b, c int) (solution string)  {
 			strconv.Itoa(b) + "/2*" + strconv.Itoa(a)
 	} else {
 		solution = "The discriminant is positive, then there are two distinct roots: " +
-			" x1=-" + strconv.Itoa(b) + "-sqrt(" + strconv.Itoa(delta) +
-			")/2*"  + strconv.Itoa(a) +
+			" x1=-"     + strconv.Itoa(b) + "-sqrt(" + strconv.Itoa(delta) +
+			")/2*"      + strconv.Itoa(a) +
 			" and x2=-" + strconv.Itoa(b) + "+sqrt(" + strconv.Itoa(delta) +
-			")/2*"  + strconv.Itoa(a)
+			")/2*"      + strconv.Itoa(a)
 	}
 	return
 }
