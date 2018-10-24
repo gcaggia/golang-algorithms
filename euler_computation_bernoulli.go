@@ -12,7 +12,7 @@ func EulerBernoulli(epsilon float64) (int, string) {
 	for ;  math.Abs(e_calc - math.E) > epsilon ; n++ {
 		e_calc = math.Pow(1 + 1/n, n)
 	}
-	return int(i), strconv.FormatFloat(e_calc, 'f', 10, 64)
+	return int(n), strconv.FormatFloat(e_calc, 'f', 10, 64)
 }
 
 func main() {
